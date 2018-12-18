@@ -6,12 +6,13 @@ html {
 }
 h1 {
   font-size: 6em;
+  cursor: pointer;
 }
 body {
   background: -webkit-linear-gradient(
     -5deg,
-    rgb(230, 176, 218),
-    rgb(226, 206, 214)
+    rgb(230, 180, 176),
+    rgb(226, 213, 206)
   );
-  background: linear-gradient(-5deg, rgb(230, 176, 218), rgb(226, 206, 214));
+  background: linear-gradient(-5deg, rgb(230, 180, 176), rgb(226, 213, 206));
 }
