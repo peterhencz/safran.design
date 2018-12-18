@@ -1,8 +1,17 @@
+html {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+}
+h1 {
+  font-size: 6em;
+}
 body {
-  background: linear-gradient(limegreen, transparent),
-    linear-gradient(90deg, skyblue, transparent),
-    linear-gradient(-90deg, coral, transparent);
-  background-image: linear-gradient(limegreen, transparent),
-    linear-gradient(90deg, skyblue, transparent),
-    linear-gradient(-90deg, coral, transparent);
+  background: -webkit-linear-gradient(
+    -5deg,
+    rgb(230, 176, 218),
+    rgb(226, 206, 214)
+  );
+  background: linear-gradient(-5deg, rgb(230, 176, 218), rgb(226, 206, 214));
 }
